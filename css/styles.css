@@ -1,0 +1,109 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+.herosection{
+    background-image: url(../images/hero_banner/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 623px;
+    position: relative;
+    background-color: #464646;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+.header {
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    padding: 30px;
+    top: 0;
+    left: 17%;
+}
+.CollegeLogo > h4 {
+    color: #fff;
+}
+.CollegeSpecification > ul li {
+    float: left;
+    padding: 0 0 0 133px;
+    list-style: none;
+}
+.CollegeSpecification > ul >li > a {
+    color: #fff!important;
+}
+.heroContent {
+    padding-top: 3%;
+    padding-left: 33px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    padding-bottom: 5%;
+    top: 8%;
+    left: 17%;
+}
+.heroContent > h1 {
+    font-size: 96px;
+    color: #fff;
+}
+.subhero-image > img {
+    width: 100%;
+}
+.subhero-image {
+    background: #0000008a;
+    color: #fff;
+    padding: 2px;
+}
+.subhero-image > h1 {
+    font-size: 21px;
+    font-weight: 600;
+    padding: 15px 0 0 0;
+}
+.subhero-image > i {
+    font-size: 18px;
+}
+.sectiontwo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+.tourimage{
+    background-image: url(../images/tour-image/tour.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:246px;
+    box-shadow: 0 11px 40px 0 rgba(74, 144, 226, 0.13);
+    background-color: #464646;
+}
+.sectiontwo-content > h1 {
+    font-size: 21px;
+}
+.sectiontwo-content > h1 {
+    font-size: 21px;
+}
+.sectiontwo-content {
+    box-shadow: 0 11px 40px 0 rgba(74, 144, 226, 0.13);
+    height: 246px;
+    padding: 22px;
+}
+.sectionthree {
+    background-color: #0f325f;
+    color: #fff;
+    padding-top:30px;
+}
+.sectionthree-content {
+    margin-left: 27%;
+}
+.sectionthree-content > h1 {
+    font-size: 80px;
+}
+.visiting-content {
+    display: flex;
+}
+.visiting-content-img > img {
+    width: 100%;
+}
