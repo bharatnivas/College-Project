@@ -107,3 +107,19 @@ body{
 .visiting-content-img > img {
     width: 100%;
 }
+.sectionfour{
+    background-image: url(../images/sectionfour/sectionfour.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 623px;
+    position: relative;
+}
+.sectionfour-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    color:#fff;
+}
+.campus-content-img >img {
+    width: 100%;
+}
