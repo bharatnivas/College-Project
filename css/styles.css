@@ -195,7 +195,7 @@ div#gridcolorchange {
     padding: 8px;
     position: absolute;
     top: 75%;
-    right: -3%;
+    right: 5%;
     border-radius: 14px;
 }
 .sectionsix-content-one > h1 {
@@ -383,8 +383,11 @@ ul{
     .sectionthree-content-two > h2 {
         font-size: 17px;
     }
+    .tourimage{
+        width:108%;
+    }
 }
-@media screen and (max-width: 789px){
+@media screen and (max-width: 767px){
     .sectionfour{
         height: 1127px;
     }
@@ -404,6 +407,12 @@ ul{
     .sectiontwo-content > div h3{
         font-size:20px;
     }
+    .tourimage{
+        width:108%;
+    }
+    .number-list >p{
+        font-size: 19px;
+    }
 }
 @media screen and (max-width: 576px){
     .sectionthree-content-two > h2{
@@ -422,5 +431,39 @@ ul{
     .sectionfive-content > h1{
         font-size: 31px;
         margin: 11px;
+    }
+}
+@media (max-width: 2000px), (min-width:575px){
+    .mobiledevice{
+        display: none;
+    }
+}
+@media screen and (max-width: 574px){
+    .subhero{
+        display:none;
+    }
+    .heroContent > h1{
+        display: none;
+    }
+    .heroContent {
+        padding: 38% 0 0 28%;
+    }
+    .heroContent > h1{
+        font-size:34px;
+        padding:7% 0 0 9%;
+    }
+    .mobiledevice{
+        display:block;
+    }
+    .mobiledevice > h1 {
+        font-size:64px;
+        color: #fff;
+        text-shadow: 2px 2px #000000;
+    }
+    .visiting-content-img > img{
+        width:100%;
+    }
+    .visiting-content-img > h1{
+        font-size:13px;
     }
 }
