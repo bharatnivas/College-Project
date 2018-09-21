@@ -305,3 +305,122 @@ ul{
     margin:0;
     padding:0;
 }
+@media (max-width: 2000px), (min-width:1180px){
+    .header{
+        padding: 20px 0 0 39px;
+        left: 15%;
+    }
+
+}
+@media (max-width: 1580px), (min-width: 1181px) {
+    .visiting-content-img > h1{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 1180px), (min-width: 990px) {
+    .header{
+        padding: 20px 0 0 39px;
+        left: 15%;
+    }
+    .visiting-content-img > h1{
+        font-size:25px;
+    }
+    .sectiontwo-content > h5{
+        font-size: 18px;
+    }
+    .sectiontwo-content > div h2{
+        font-size: 20px
+    }
+    .sectiontwo-content > div h3{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 989px){
+    .header{
+        padding: 24px 0 0 44px;
+        left: 0;
+    }
+    .CollegeSpecification > ul li{
+            padding: 4px;
+            margin: 0 0 0 47px;
+    }
+    .heroContent{
+            padding: 30px 0 0 37px;
+    }
+    .visiting-content-img > h1{
+        font-size:25px;
+    }
+    .heroContent > h1{
+        font-size: 70px;
+    }
+    .herosection{
+        height:495px;
+    }
+    .sectiontwo-content > h5{
+        font-size: 30px;
+    }
+    .sectiontwo-content > div h2{
+        font-size: 40px
+    }
+    .sectiontwo-content > div h3{
+        font-size: 30px;
+    }
+    .sectionthree-content{
+        margin-left: 0%;
+    }
+    .sectionfive{
+        height: auto;
+        background-position: center;
+    }
+    .sectionsix-content-three a{
+        margin: 10px;
+    }
+    .sectionthree-content > h1{
+        font-size: 31px;
+        padding: 0 0 0 15px;
+    }
+    .sectionthree-content-two > h2 {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 789px){
+    .sectionfour{
+        height: 1127px;
+    }
+    .heroContent > h1{
+        font-size: 54px;
+        padding: 9% 0 0 0%;
+    }
+    .subhero-image > h1{
+        font-size:11px;
+    }
+    .subhero-image > i{
+        display: none;
+    }
+    .sectiontwo-content > h5{
+        font-size:20px;
+    }
+    .sectiontwo-content > div h3{
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 576px){
+    .sectionthree-content-two > h2{
+        font-size:11px;
+    }
+    .number-list h1 {
+        font-size: 27px;
+    }
+    .number-list >p{
+        font-size:8px;
+    }
+    .sectionfive {
+        height: auto;
+        background-position: center;
+    }
+    .sectionfive-content > h1{
+        font-size: 31px;
+        margin: 11px;
+    }
+}
