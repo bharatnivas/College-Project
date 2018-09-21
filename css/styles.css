@@ -134,3 +134,12 @@ body{
     margin: 0 auto;
     padding: 30px 0 0 0;
 }
+.sectionsix{
+    background-color: #0f325f;
+    color:#fff;
+}
+.sectionsix-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
