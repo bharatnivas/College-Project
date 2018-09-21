@@ -178,6 +178,10 @@ div#gridcolorchange {
     height: 623px;
     position: relative;
 }
+.sectionfour-content-two > img {
+    height: 515px;
+    width: 100%;
+}
 .sectionfour-content-text > h1 {
     font-size: 80px;
 }
@@ -185,6 +189,30 @@ div#gridcolorchange {
     font-size: 75px;
     margin: -30px 0 0 6px;
 }
+.sectionfour-content-two > div {
+    background-color: red;
+    width: 28%;
+    padding: 8px;
+    position: absolute;
+    top: 75%;
+    right: -3%;
+    border-radius: 14px;
+}
+.sectionsix-content-one > h1 {
+    font-size: 60px;
+    margin: 0;
+}
+.sectionsix-content-two > p {
+    font-size: 15px;
+    margin: 0px;
+}
+.sectionsix-content-three {
+    padding: 16% 0 0 8%;
+}
+.sectionsix-content-three a {
+    margin: 0 0 0 60px;
+}
+
 .campus-content-img {
     background-color: rgba(0, 0, 0, 0.43137254901960786);
 }
@@ -247,7 +275,33 @@ div#gridcolorchange {
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 35px 0 35px 0;
 }
 h6 {
     margin: 0px;
+}
+.footer-content > ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    margin-left: 0px;
+}
+.subscribeform > a {
+    background-color: #134b91;
+    padding: 6px 26px;
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+}
+.subscribeform {
+    margin: 4% 0 0 0;
+}
+ul{
+    margin:0;
+    padding:0;
 }
