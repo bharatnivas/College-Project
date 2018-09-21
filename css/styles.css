@@ -4,7 +4,7 @@ body{
     overflow-x: hidden;
 }
 .herosection{
-    background-image: url(../images/hero_banner/hero.jpeg);
+    background-image: url(../images/hero_banner/hero3.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 623px;
@@ -48,6 +48,7 @@ body{
 .heroContent > h1 {
     font-size: 96px;
     color: #fff;
+    text-shadow: 2px 2px #000000;
 }
 .subhero-image > img {
     width: 100%;
@@ -142,4 +143,15 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
+}
+.footer{
+    background-color: #002854;
+    color:#fff;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h6 {
+    margin: 0px;
 }
