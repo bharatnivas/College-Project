@@ -131,19 +131,45 @@ body{
 .sectionthree {
     background-color: #0f325f;
     color: #fff;
-    padding-top:30px;
 }
 .sectionthree-content {
     margin-left: 27%;
 }
 .sectionthree-content > h1 {
     font-size: 80px;
+    padding: 30px 0 0 0;
 }
 .visiting-content {
     display: flex;
 }
 .visiting-content-img > img {
     width: 100%;
+}
+.visiting-content > p {
+    font-weight: bold;
+    padding: 0 27px 0 2%;
+    line-height: 31px;
+    text-align: end;
+}
+.visiting-content-img > h1 {
+    font-size: 34px;
+    padding: 5% 0 0 0;
+    font-weight: 800;
+}
+.visiting-content-img > p {
+    font-size: 23px;
+}
+div#gridcolorchange {
+    background-color: #002854;
+    padding: 30px 0 0 3%;
+}
+.number-list h1 {
+    margin: 0;
+    font-size: 84px;
+}
+.number-list >p {
+    font-size: 20px;
+    font-weight: 900;
 }
 .sectionfour{
     background-image: url(../images/sectionfour/sectionfour.jpeg);
