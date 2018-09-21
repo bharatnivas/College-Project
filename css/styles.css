@@ -178,6 +178,31 @@ div#gridcolorchange {
     height: 623px;
     position: relative;
 }
+.sectionfour-content-text > h1 {
+    font-size: 80px;
+}
+.sectionfour-content-text > h2 {
+    font-size: 75px;
+    margin: -30px 0 0 6px;
+}
+.campus-content-img {
+    background-color: rgba(0, 0, 0, 0.43137254901960786);
+}
+.campus-content-img > h1 {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 5px 0 5px;
+    text-transform: uppercase;
+}
+.campus-content-img > p {
+    font-size: 17px;
+    padding: 0 4px 5px 7px;
+}
+.sectionfive-content > h1 {
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 1px 2px #000000;
+}
 .sectionfour-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -191,7 +216,15 @@ div#gridcolorchange {
     background-image: url(../images/sectionfive/sectionfive.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 623px;
+    height: 711px;
+}
+.sectionfive-content-one {
+    background-color: rgba(255, 255, 255, 0.55);
+}
+.sectionfive-content-one p {
+    font-size: 17px;
+    text-align: justify;
+    padding: 10px;
 }
 .sectionfive-content {
     max-width: 1200px;
