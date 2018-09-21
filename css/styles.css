@@ -14,7 +14,7 @@ body{
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
-    filter: blur(5px);
+    filter: blur(2px);
 }
 .header {
     display: flex;
@@ -34,16 +34,17 @@ body{
 }
 .CollegeSpecification > ul >li > a {
     color: #fff!important;
+    text-shadow: 2px 2px #000000;
+    text-decoration: none;
+    font-weight: 700;
 }
 .heroContent {
     padding-top: 3%;
     padding-left: 33px;
-    max-width: 1200px;
     margin: 0 auto;
     position: absolute;
     padding-bottom: 5%;
-    top: 8%;
-    left: 17%;
+    top: 5%;
 }
 .heroContent > h1 {
     font-size: 96px;
@@ -54,22 +55,49 @@ body{
     width: 100%;
 }
 .subhero-image {
-    background: #0000008a;
     color: #fff;
     padding: 2px;
 }
 .subhero-image > h1 {
+    background: black;
     font-size: 21px;
+    margin: 0;
     font-weight: 600;
     padding: 15px 0 0 0;
 }
 .subhero-image > i {
     font-size: 18px;
+    background: black;
+    display: block;
 }
 .sectiontwo {
-    max-width: 1200px;
-    margin: 0 auto;
+    padding:0;
+}
+.sectiontwo-content > h1 {
+    font-weight: 900;
+}
+.sectiontwo-content > h5 {
+    color: #656565;
+    font-size: 27px;
+}
+.sectiontwo-content > p {
+    color: gray;
+}
+.sectiontwo-content > h2 {
+    font-size: 47px;
+    font-weight: 600;
+}
+.sectiontwo-content > div {
+    display: flex;
     padding: 30px 0 0 0;
+}
+.sectiontwo-content > div h2{
+    font-size: 47px;
+    font-weight: 600;
+}
+.sectiontwo-content > div h3 {
+    font-size: 33px;
+    margin-left: 20px;
 }
 .tourimage{
     background-image: url(../images/tour-image/tour.jpeg);
@@ -79,6 +107,15 @@ body{
     height:246px;
     box-shadow: 0 11px 40px 0 rgba(74, 144, 226, 0.13);
     background-color: #464646;
+    width: 121%;
+    margin: 0 0 0 -30px;
+}
+.tourimage > h4 {
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+    font-size: 47px;
+    background-color: black;
+    padding-left: 18%;
 }
 .sectiontwo-content > h1 {
     font-size: 21px;
@@ -87,9 +124,9 @@ body{
     font-size: 21px;
 }
 .sectiontwo-content {
-    box-shadow: 0 11px 40px 0 rgba(74, 144, 226, 0.13);
     height: 246px;
     padding: 22px;
+    border-right: 1px solid gray;
 }
 .sectionthree {
     background-color: #0f325f;
