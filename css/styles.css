@@ -107,8 +107,17 @@ body{
     height:246px;
     box-shadow: 0 11px 40px 0 rgba(74, 144, 226, 0.13);
     background-color: #464646;
-    width: 121%;
+    width: 114%;
     margin: 0 0 0 -30px;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px; 
 }
 .tourimage > h4 {
     color: #fff;
@@ -479,7 +488,8 @@ ul{
         max-width: 40%;
     }
     .sectionfour-content-two > img{
-        width:96%;
+        width: 100%;
+        padding: 15px;
     }
     .sectionfour{
         height:938px;
@@ -489,7 +499,7 @@ ul{
         margin: 0;
     }
     .w-100 {
-        width: 96%!important;
+        width:100%!important;
     }
     .number-list h1{
         font-size: 15px;
@@ -502,5 +512,11 @@ ul{
     }
     .tourimage > h4{
         font-size: 35px;
+    }
+    .campus-content-img > h1{
+        font-size: 11px;
+    }
+    .sectionfive-content-one p{
+        font-size: 13px;
     }
 }
